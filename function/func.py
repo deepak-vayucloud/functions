@@ -32,7 +32,7 @@ class Function:
         })
         await send({
             'type': 'http.response.body',
-            'body': 'OK-rev2'.encode(),
+            'body': 'OK-rev3'.encode(),
         })
 
     def start(self, cfg):
